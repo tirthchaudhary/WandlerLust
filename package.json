@@ -1,5 +1,5 @@
 {
-  "engines":{
+  "engines": {
     "node": "22.18.0"
   },
   "name": "tripzy-airbnb-clone-project",
@@ -21,6 +21,7 @@
     "ejs-mate": "^4.0.0",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
+    "joi": "^18.0.2",
     "leaflet-control-geocoder": "^3.3.1",
     "method-override": "^3.0.0",
     "mongoose": "^8.19.2",
