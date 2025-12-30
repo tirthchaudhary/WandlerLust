@@ -6,7 +6,6 @@ const passport = require("passport");
 const LocalStrategy=require("passport-local");
 const {saveRedirectUrl}=require('../middleware.js')
 const userController=require("../controllers/user.js");
-const { useReducer } = require("react");
 
 router.route("/signup")
 .get(wrapAsync(userController.renderSignupForm))
@@ -27,3 +26,4 @@ router.route("/login")
 router.get("/logout",wrapAsync(userController.logout)) 
 
 module.exports=router;
+  
